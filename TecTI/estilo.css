@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    /* Aplica a imagem */
+    background-image: url(img/Ciencia-de-dados.jpg);
+    /* Não repetir a imagem */
+    background-repeat: no-repeat;
+    /* Cobrir todo o fundo da tela com a mesma imagem */
+    background-size: cover;
+}
+
+.login {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.login a {
+    /* Deixa o texto maiusculo */
+    text-transform: uppercase;
+    /* Tirar o sublinhado  */
+    text-decoration: none;
+    /* Tamanho da Fonte */
+    font-size: 35px;
+    /* Fonte da letra */
+    font-family: "Indie Flower", cursive;
+    /* Espessura da letra */
+    font-weight: 900;
+    /* Cor da letra */
+    color: #8C7B7C;
+    /* Cor de fundo */
+    background-color: beige;
+    /* Espaçamento interno */
+    padding: 10px 30px;
+    /* Arrendodar as bordas */
+    border-radius: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    color: beige;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.informacoes p {
+    font-size: 25px;
+    color: beige;
+    text-transform: uppercase;
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+#inputNome {
+    /* Largura */
+    width: 550px;
+    /* Altura */
+    height: 40px;
+    /* Arredondar a borda */
+    border-radius: 15px;
+    /* Retirar a borda preta */
+    border-style: none;
+}
+
+#inputEmail {
+    /* Largura */
+    width: 340px;
+    /* Altura */
+    height: 40px;
+    /* Arredondar a borda */
+    border-radius: 15px;
+    /* Retirar a borda preta */
+    border-style: none;
+}
+
+.botaoLogin {
+    /* Largura */
+    width: 200px;
+    /* Altura */
+    height: 40px;
+    /* Cor */
+    color: beige;
+    /* Cor de fundo */
+    background-color: #8C7B7C;
+    /* Arredondar a borda */
+    border-radius: 15px;
+    /* Tamanho da fonte */
+    font-size: 30px;
+    /* Maiusculo */
+    text-transform: uppercase;
+    /* Tirar a borda */
+    border-style: none;
+}
+
+.inputs{
+    /* Ajuste de posicionamento */
+    display: flex;
+    /* Direção dos itens - em coluna */
+    flex-direction: column;
+    /* Alinhar os iten ao centro */
+    align-items: center;
+    /* aumentar a margem do topo */
+    margin-top: 30px;
+}
+
+.entrarEmail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.redes{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.redes img{
+    width: 40px;
+}
